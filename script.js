@@ -3,19 +3,19 @@ const kiddos = [
     {
         name: "Laddu",
         age: 5,
-        funFact: "Can juggle 3 apples 🍎🍏🍎",
+        funFact: "Bas Laddu Khata hai",
         image: "kid1.jpg"
     },
     {
         name: "Laila",
         age: 6,
-        funFact: "Can Sleep 18 Hours",
+        funFact: "18 Ghante Soti hai",
         image: "kid2.jpg"
     },
     {
         name: "Babu",
         age: 4,
-        funFact: "Runs faster than his own shadow 🏃💨",
+        funFact: "Khana Nahi khata",
         image: "kid3.jpg"
     }
 ];
