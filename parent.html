@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parent Portal - Rent-a-Kiddo 😂</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>👩‍👦 Parent Portal</h1>
+        <p class="subtitle">Upload your kiddo! (This is just for fun 😂)</p>
+    </header>
+
+    <main>
+        <form class="parent-form" onsubmit="handleSubmit(event)">
+            <label>
+                Child Name: <br>
+                <input type="text" required />
+            </label>
+            <br><br>
+            <label>
+                Age: <br>
+                <input type="number" required />
+            </label>
+            <br><br>
+            <label>
+                Fun Fact: <br>
+                <input type="text" required />
+            </label>
+            <br><br>
+            <label>
+                Upload Picture: <br>
+                <input type="file" required />
+            </label>
+            <br><br>
+            <button type="submit" class="home-button">Submit Kiddo 🚀</button>
+        </form>
+    
+    <a href="index.html" class="back-link">⬅️ Back to Home</a>
+</main>
+
+    <footer>
+        <p>⚠️ This is a parody. No data is stored. Form does nothing. 😂</p>
+    </footer>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            alert("😂 LOL! You tried to upload a kiddo! This is just a parody form.");
+        }
+    </script>
+</body>
+</html>
